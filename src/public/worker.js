@@ -6,6 +6,6 @@ self.addEventListener('push', e =>{
   console.log('Notification received');
   self.registration.showNotification(data.title,{
     body: data.message,
-    icon: 'https://www.lubricar.cl/lubricar-ecommerce/web/bundles/opensite/images/icons/lubricar.svg'
+    icon: 'https://cdn3.iconfinder.com/data/icons/facebook-ui-flat/48/Facebook_UI-20-512.png'
   })
 });
